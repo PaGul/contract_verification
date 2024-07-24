@@ -22,7 +22,7 @@ if "verdict_task_data" not in st.session_state:
     
 model = AzureChatOpenAI(
     azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
-    openai_api_version="os.getenv("OPENAPI_VERSION"),
+    openai_api_version=os.getenv("OPENAPI_VERSION"),
     azure_deployment=os.getenv("GPT_DEPLOYMENT_NAME"),
 )
 
