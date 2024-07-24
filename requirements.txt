@@ -1,1 +1,2 @@
 python-docx
+langchain==0.2.3
