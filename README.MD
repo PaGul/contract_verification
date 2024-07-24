@@ -1,5 +1,5 @@
 How to use the application:
-1. Uoload the contract file ("Upload contract in docx format")
+1. Upload the contract file ("Upload contract in docx format")
 2. Upload tasks ("Upload tasks in xlsx format or csv with ; separator")
 3. Generate conditions based on the contract ("Create conditions" button)
 4. Analyze tasks ("Analyze tasks" button, works pretty slow)
