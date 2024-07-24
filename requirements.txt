@@ -2,3 +2,4 @@ python-docx
 langchain==0.2.3
 langchain-community 
 langchain-core
+openai
