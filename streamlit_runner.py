@@ -72,7 +72,6 @@ if uploaded_tasks is not None:
             tasks = pd.read_excel(uploaded_tasks)
         elif file_extension=='.csv':
             tasks = pd.read_csv(uploaded_tasks, sep=';')
-        tasks = tasks[:2]
         st.session_state.task_data = tasks
     except:
         st.error('Wrong format')
