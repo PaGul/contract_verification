@@ -69,7 +69,7 @@ if uploaded_tasks is not None:
     filename, file_extension = os.path.splitext(uploaded_tasks.name)
     try:
         if file_extension=='.xlsx':
-            tasks = pd.read_excel(uploaded_tasks)
+            tasks = pd.read_excel(uploaded_tasks, engine='openpyxl')
         elif file_extension=='.csv':
             tasks = pd.read_csv(uploaded_tasks, sep=';')
         st.session_state.task_data = tasks
